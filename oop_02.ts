@@ -19,7 +19,8 @@ class BankAccount {
         }
     }
 }
-const account = new BankAccount(123456, 900)
+const account = new BankAccount(123456, 800)
 console.log(account.getBalance()) // 900
 account.deposit(100)
 console.log(account.getBalance()) //1000
+//chenge code
